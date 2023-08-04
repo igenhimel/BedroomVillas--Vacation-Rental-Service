@@ -30,14 +30,14 @@ Bedroom Villas is a property location webpage designed to showcase various villa
 
 To get a copy of the project up and running on your local machine, follow these steps:
 
-1. Clone the repository: `git clone [[https://github.com/igenhimel/bedroom-villas.git]`]
+1. Clone the repository: `git clone [[https://github.com/igenhimel/BedroomVillas-W3project.git]`]
 2. Navigate to the project directory: `cd bedroom-villas`
 3. Open `index.html` in your web browser.
 
-Alternatively, you can simply access the live website at (https://igenhimel.github.io/BedroomVillas-W3/)
+Alternatively, you can simply access the live website at (https://igenhimel.github.io/BedroomVillas-W3project/)
 
 ## Usage
-](https://igenhimel.github.io/BedroomVillas-W3/)
+](https://igenhimel.github.io/BedroomVillas-W3project/)
 1. Upon opening the webpage, you will see a grid of property tiles showcasing different villas and resorts.
 2. Click on a tile to view more details about a particular property.
 3. Use the search functionality to filter properties based on location, amenities, etc.
