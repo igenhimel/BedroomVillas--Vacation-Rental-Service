@@ -1,5 +1,6 @@
 # Bedroom Villas - Property Location Webpage
 
+
 Bedroom Villas is a property location webpage designed to showcase various villas and resorts available for rent or sale. It provides a user-friendly interface to browse through different properties and explore the features and amenities they offer. The webpage is responsive and can be accessed from any device, ensuring a seamless user experience.
 
 ![Bedroom Villas](https://github.com/igenhimel/BedroomVillas-W3project/blob/task1/images/Screenshot%20(1).png)
@@ -36,7 +37,7 @@ To get a copy of the project up and running on your local machine, follow these 
 Alternatively, you can simply access the live website at (https://igenhimel.github.io/BedroomVillas-W3project/)
 
 ## Usage
-](https://igenhimel.github.io/BedroomVillas-W3project/)
+(https://igenhimel.github.io/BedroomVillas-W3project/)
 1. Upon opening the webpage, you will see a grid of property tiles showcasing different villas and resorts.
 2. Click on a tile to view more details about a particular property.
 3. Use the search functionality to filter properties based on location, amenities, etc.
