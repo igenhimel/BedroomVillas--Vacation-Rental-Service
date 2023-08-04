@@ -30,7 +30,7 @@ Bedroom Villas is a property location webpage designed to showcase various villa
 
 To get a copy of the project up and running on your local machine, follow these steps:
 
-1. Clone the repository: `git clone [https://github.com/igenhimel/bedroom-villas.git`]
+1. Clone the repository: `git clone [[https://github.com/igenhimel/bedroom-villas.git]`]
 2. Navigate to the project directory: `cd bedroom-villas`
 3. Open `index.html` in your web browser.
 
