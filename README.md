@@ -17,8 +17,6 @@ Bedroom Villas is a property location webpage designed to showcase various villa
 - Property tiles showcasing villa/resort images, brief descriptions, and key features.
 - Individual pages with detailed property information.
 - Search functionality to filter properties by location, amenities, etc.
-- Contact form to inquire about a particular property.
-
 
 ## Technologies Used
 
@@ -41,5 +39,5 @@ Alternatively, you can simply access the live website at (https://igenhimel.gith
 1. Upon opening the webpage, you will see a grid of property tiles showcasing different villas and resorts.
 2. Click on a tile to view more details about a particular property.
 3. Use the search functionality to filter properties based on location, amenities, etc.
-4. To inquire about a specific property, fill out the contact form on the property details page.
+
 
