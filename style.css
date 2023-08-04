@@ -49,6 +49,18 @@
     left: 10px; 
 }
 
+.card .btn-love{
+    position: absolute;
+    bottom: 10px; 
+    right: 50px; 
+}
+
+.card .btn-map{
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+}
+
 
 
 .img-card img{
@@ -76,3 +88,11 @@
     align-items: flex-end;
   }
   
+ 
+  @media (max-width: 992px) {
+    /* Small devices (up to 767.98px) */
+    .custom-bg {
+      background-color: rgb(75, 75, 85); /* Background color for small devices */
+      padding: 5px 5px 5px 5px;
+    }
+  }
