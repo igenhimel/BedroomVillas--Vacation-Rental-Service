@@ -31,6 +31,15 @@
       }
     });
 
+    counterApply.addEventListener('click', () => {
+     
+      updateInput();
+      counterOpen.className="d-none";
+     
+    
+      });
+
+
     function updateInput(){
 
         guestInput.value=guestCount;
