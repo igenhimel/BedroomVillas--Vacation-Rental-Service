@@ -1,60 +1,79 @@
 # Interactive Property Search Web App
 
-This repository contains the code for an interactive property search web app. The app allows users to search for accommodations based on location, check-in and check-out dates, number of guests, and price range. It utilizes modern web technologies and libraries such as Bootstrap, Font Awesome, Pikaday, noUiSlider, and Leaflet to provide a seamless user experience.
+Welcome to the Interactive Property Search Web App repository! This web application allows users to search for rental properties, apply various filters, and view the results on an interactive map.
 
-![BedroomVillas-W3project](https://user-images.githubusercontent.com/your-image.png)
+![Web App Screenshot](screenshot.png)
 
 ## Table of Contents
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Demo](#demo)
-- [Technologies](#technologies)
 
+- [Introduction](#introduction)
+- [Live Demo](#live-demo)
+- [Features](#features)
+- - [Search Options](#search-options)
+  - [Check-in and Check-out](#check-in-and-check-out)
+  - [Guest Count](#guest-count)
+  - [Price Range](#price-range)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+
+
+## Introduction
+
+The Interactive Property Search Web App is designed to help users easily find and filter rental properties based on their preferences. It offers a user-friendly interface with multiple search options and provides an interactive map to visualize property locations.
+
+## Live Demo
+
+Experience the web app live: [Interactive Property Search Web App](https://illustrious-conkies-2bb1cd.netlify.app/)
 
 ## Features
 
-- **Search:** Users can search for bedroom villas based on various criteria such as location, check-in and check-out dates, number of guests, and price range.
-- **Interactive Map:** The application features an interactive map that displays the locations of available villas.
-- **Guest Counter:** Users can specify the number of guests using an interactive counter.
-- **Price Range Slider:** Users can set their desired price range using a slider.
-- **Responsive Design:** The application is designed to work smoothly on different devices, including desktops, tablets, and smartphones.
+### Search Options
 
-## Getting Started
+- **Location Search:** Users can search for rental properties by entering a location, such as a city or region.
 
-To run the BedroomVillas-W3project locally, follow these steps:
+- **Check-in and Check-out Dates:** Users can specify their desired check-in and check-out dates using a date picker.
 
-1. Clone the repository:
+- **Guest Count Selection:** Users can select the number of guests for the stay, refining the search results accordingly.
 
-   ```bash
-   git clone https://github.com/igenhimel/BedroomVillas-W3project.git
-   ```
+- **Price Range:** Users can set a preferred price range for the rental properties using a slider.
 
-2. Navigate to the project directory:
+### Check-in and Check-out
 
-   ```bash
-   cd BedroomVillas-W3project
-   ```
+Users can set their desired check-in and check-out dates using the date picker. This feature helps users find properties available during their intended stay.
 
-3. Open the `index.html` file in your preferred web browser.
+### Guest Count
+
+Users can specify the number of guests for their stay. The guest count can be adjusted using the "+" and "-" buttons, and users can apply the filter to see properties that accommodate the selected number of guests.
+
+### Price Range
+
+Users can set a price range for the rental properties using a slider. The slider allows users to define a minimum and maximum price per night, helping them narrow down their options.
+
+## Technologies Used
+
+The web app is built using the following technologies:
+
+- HTML5, CSS3
+- Bootstrap 5
+- Font Awesome Icons
+- Pikaday Date Picker
+- noUiSlider
+- Leaflet.js
+- JavaScript
+
+## Installation
+
+To run the web app locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/igenhimel/BedroomVillas-W3project.git`
+2. Navigate to the project directory: `cd BedroomVillas-W3project`
+3. Open `index.html` in your preferred web browser.
 
 ## Usage
 
-1. Open the web application using the link provided in the [Demo](#demo) section.
-2. Use the search options to specify your criteria, such as location, check-in and check-out dates, number of guests, and price range.
-3. Click the "Search" button to view the available bedroom villas that match your criteria.
-4. Explore the interactive map to see the villa locations.
-5. Adjust the guest count and price range as desired.
-6. Click the "Show Map" button to focus on the map view.
-
-
-## Demo
-
-Check out the live demo of the BedroomVillas-W3project: [Live Demo](https://illustrious-conkies-2bb1cd.netlify.app/)
-
-## Technologies
-
-- HTML5
-- CSS3 (Bootstrap 5, Font Awesome)
-- JavaScript (Pikaday, noUiSlider, Leaflet)
+1. Open the web app using the provided live link or by running it locally.
+2. Use the search options to enter your preferences, including location, check-in/out dates, guest count, and price range.
+3. Click the "Search" button to see the filtered property listings.
+4. Click the "Show Map" button to view property locations on the interactive map.
 
