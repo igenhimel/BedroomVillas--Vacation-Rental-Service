@@ -29,10 +29,10 @@
 }
 
 .noUi-horizontal .noUi-handle {
-  width: 34px;
-  height: 34px;
-  right: -17px;
-  top: -12px;
+  width: 14px;
+  height: 14px;
+  right: -10px;
+  top: -4px;
   border-radius: 50%;
   background-color: white;
   outline-style: solid;
@@ -54,6 +54,8 @@
 
 .noUi-horizontal {
   height: 7px;
+  width: 80%;
+  margin: auto;
 }
 
 .noUi-handle {
@@ -69,6 +71,13 @@
 .noUi-tooltip {
   padding: 3px;
   font-size: 15px;
+}
+
+.noUi-horizontal .noUi-tooltip {
+ 
+  left: -20%;
+  font-size: small;
+  bottom: 165%;
 }
 
 
@@ -90,7 +99,17 @@
   right: 0;
 }
 
-#map {
-  height: 500px;
-  width: 500px;
+
+@media only screen and (min-width: 990px) {
+  #map {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #map {
+    width: 100%;
+    height: 450px;
+  }
 }

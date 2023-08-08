@@ -6,6 +6,7 @@ const checkInInput = document.getElementById('check-in-input');
 const checkOutInput = document.getElementById('check-out-input');
 const searchButton = document.getElementById('searchButton');
 
+
 //searching
 // Fetch the JSON data from places.json
 fetch('places.json')

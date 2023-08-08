@@ -18,7 +18,7 @@
 
   <div class="container mt-4">
 
-    <form class="d-md-inline-flex">
+    <form class="d-lg-inline-flex">
 
       <!--Search option start-->
 
@@ -76,6 +76,7 @@
           </span>
         </div>
 
+       <div class="text-center mx-auto">
         <div class="btn-group" role="group" id="counterOpen">
           <button type="button" class="btn btn-outline-warning rounded-circle me-2 border-warning border-2"
             id="decreaseBtn">-</button>
@@ -84,6 +85,7 @@
             id="increaseBtn">+</button>
           <span type="button " class="btn btn-warning" id="counterApplyButton">Apply</span>
         </div>
+       </div>
 
       </div>
 
@@ -129,19 +131,35 @@
     <div id="outputDiv"></div>
 
 
-
-
+ <div class="showMap text-center mb-5">
+    <button id="showMapBtn" type="button" class="btn btn-info ">Show Map</button>
+    
   </div>
 
+  <div class="row">
+    <div class="col-12 col-lg-6">
+    <div id="map" class="">
+
+    </div>
+  </div>
+   <div class="col-12 col-md-3">
+    <div id="propertyListContainer" class="property-list-container">
+   </div>
+   
+  
+    
+   </div>
+  </div>
+  </div>
+
+
+
+  
 
 
   <!---maps start-->
 
-  <div class="showMap text-center mb-5">
-    <button id="showMapBtn" type="button" class="btn btn-info ">Show Map</button>
-  </div>
-
-  <div id="map" class="text-center mx-auto"></div>
+ 
 
 
   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>

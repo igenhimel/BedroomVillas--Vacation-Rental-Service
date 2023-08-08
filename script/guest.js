@@ -5,6 +5,7 @@
     const counterValue = document.getElementById('counterValue');
     const counterOpen = document.getElementById('counterOpen')
     const counterApply = document.getElementById('counterApplyButton')
+    
 
     let guestCount = 0;
 
@@ -13,7 +14,9 @@
 
 
     guestInput.addEventListener('click', () => {
-      counterOpen.className = "d-block mt-3"
+      let slider = document.getElementById('sliderOpen');
+      counterOpen.className = "d-block mt-3";
+      slider.className="d-none";
     });
 
 

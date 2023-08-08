@@ -7,8 +7,10 @@ let maxPrice = 0;
 
 
 priceInput.addEventListener('click', () => {
-    sliderOpen.className = 'd-block';
+    let counterOpen = document.getElementById('counterOpen');
 
+    sliderOpen.className = 'd-block';
+    counterOpen.className='d-none'
     // Update minPrice and maxPrice based on slider values
     slider.noUiSlider.on('update', function (values) {
         minPrice = parseInt(values[0]);
