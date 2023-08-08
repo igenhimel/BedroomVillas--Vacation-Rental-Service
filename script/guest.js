@@ -9,7 +9,9 @@
     let guestCount = 0;
 
 
-  
+
+
+    
     guestInput.addEventListener('click', () => {
         counterOpen.className="d-block mt-3"
       });
@@ -52,9 +54,11 @@
         counterValue.innerText=guestCount;
         
       }
-   
 
-
-   
-
-   
+      document.addEventListener('click', function(event) {
+        var elementsToExclude = ['input', 'textarea'];
+        if (!counterOpen.contains(event.target) && !elementsToExclude.includes(event.target.tagName.toLowerCase())) {
+          counterOpen.className="d-none";
+        }
+      });
+      

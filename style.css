@@ -19,15 +19,63 @@
     display: none;
     height: 100px;
     position: relative;
+    background-color: rgb(246, 251, 255);
+    padding: 10px;
   }
-
-  #counterApplyButton{
-    position: absolute!important;
-    bottom: 0!important;
-    margin-bottom: 3px!important;
-}
 
 #suggestions{
   z-index: 1000;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 34px;
+  height: 34px;
+  right: -17px;
+  top: -12px;
+  border-radius: 50%;
+  background-color: rgb(120, 126, 134);
+}
+
+.noUi-connect {
+  background: #0dcaf0;
+  height: 0px;
+  margin-top: 4px;
+}
+
+.noUi-target {
+  background: #65a3b5;
+  border-radius: 0px;
+  border: 0px;
+  box-shadow:none;
+}
+
+.noUi-horizontal {
+  height: 7px;
+}
+
+.noUi-handle {
+  box-shadow: none;
+
+}
+
+.noUi-handle:before, .noUi-handle:after {
+  content: none;
+}
+
+.noUi-tooltip {
+  padding: 3px;
+  font-size: 15px;
+}
+
+
+.noUi-tooltip {
+
+  background-color: #0dcaf0;
+ 
+}
+
+#sliderOpen{
+  display: none;
+  background-color: rgb(246, 251, 255);
 }
 
