@@ -1,4 +1,4 @@
-# BedroomVillas-W3project (Javascript)
+# Interactive Accommodation Search Web App
 
 This repository contains a web application for searching and displaying bedroom villas for rent. The application allows users to search for villas based on various criteria such as location, check-in and check-out dates, number of guests, and price range. It also features an interactive map for visualizing villa locations.
 
