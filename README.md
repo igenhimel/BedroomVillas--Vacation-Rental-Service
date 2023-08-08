@@ -2,8 +2,6 @@
 
 Welcome to the Interactive Property Search Web App repository! This web application allows users to search for rental properties, apply various filters, and view the results on an interactive map.
 
-![Web App Screenshot](screenshot.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
