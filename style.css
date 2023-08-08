@@ -1,29 +1,30 @@
-.input-border{
-    border-left:0;
+.input-border {
+  border-left: 0;
 }
 
 .counter-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-  #decreaseBtn, #increaseBtn{
+#decreaseBtn,
+#increaseBtn {
 
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 
-  }
+}
 
-  #counterOpen {
-    display: none;
-    height: 100px;
-    position: relative;
-    background-color: rgb(246, 251, 255);
-    padding: 10px;
-  }
+#counterOpen {
+  display: none;
+  height: 100px;
+  position: relative;
+  background-color: rgb(246, 251, 255);
+  padding: 10px;
+}
 
-#suggestions{
+#suggestions {
   z-index: 1000;
 }
 
@@ -33,7 +34,9 @@
   right: -17px;
   top: -12px;
   border-radius: 50%;
-  background-color: rgb(120, 126, 134);
+  background-color: white;
+  outline-style: solid;
+  outline-color: rgb(35, 157, 206);
 }
 
 .noUi-connect {
@@ -43,10 +46,10 @@
 }
 
 .noUi-target {
-  background: #65a3b5;
+  background: #5eb5cf;
   border-radius: 0px;
   border: 0px;
-  box-shadow:none;
+  box-shadow: none;
 }
 
 .noUi-horizontal {
@@ -58,7 +61,8 @@
 
 }
 
-.noUi-handle:before, .noUi-handle:after {
+.noUi-handle:before,
+.noUi-handle:after {
   content: none;
 }
 
@@ -71,11 +75,22 @@
 .noUi-tooltip {
 
   background-color: #0dcaf0;
- 
+
 }
 
-#sliderOpen{
+#sliderOpen {
   display: none;
   background-color: rgb(246, 251, 255);
 }
 
+.showMap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#map {
+  height: 500px;
+  width: 500px;
+}

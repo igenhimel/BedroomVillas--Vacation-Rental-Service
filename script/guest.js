@@ -11,54 +11,46 @@
 
 
 
-    
+
     guestInput.addEventListener('click', () => {
-        counterOpen.className="d-block mt-3"
-      });
+      counterOpen.className = "d-block mt-3"
+    });
 
 
+    //increase guest value
     increaseBtn.addEventListener('click', () => {
       guestCount++;
       updateGuestInput();
-     
-
     });
-  
+
+    //decrease guest value
     decreaseBtn.addEventListener('click', () => {
       if (guestCount > 0) {
         guestCount--;
         updateGuestInput();
-     
-    
+
+
       }
     });
 
     counterApply.addEventListener('click', () => {
-     
       updateInput();
-      counterOpen.className="d-none";
-     
-    
-      });
+      counterOpen.className = "d-none";
+    });
 
 
-    function updateInput(){
-
-        guestInput.value=guestCount;
-        
+    function updateInput() {
+      guestInput.value = guestCount;
     }
 
-
+    //update guest value on input field
     function updateGuestInput() {
-      
-        counterValue.innerText=guestCount;
-        
-      }
+      counterValue.innerText = guestCount;
+    }
 
-      document.addEventListener('click', function(event) {
-        var elementsToExclude = ['input', 'textarea'];
-        if (!counterOpen.contains(event.target) && !elementsToExclude.includes(event.target.tagName.toLowerCase())) {
-          counterOpen.className="d-none";
-        }
-      });
-      
+    document.addEventListener('click', function (event) {
+      var elementsToExclude = ['input', 'textarea'];
+      if (!counterOpen.contains(event.target) && !elementsToExclude.includes(event.target.tagName.toLowerCase())) {
+        counterOpen.className = "d-none";
+      }
+    });

@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>JavaSript</title>
 </head>
 
 <body>
@@ -18,6 +19,9 @@
   <div class="container mt-4">
 
     <form class="d-md-inline-flex">
+
+      <!--Search option start-->
+
       <div class="form-group me-2 my-2">
         <div class="input-group">
           <span class="input-group-text bg-white ">
@@ -29,8 +33,14 @@
           <ul id="suggestions" class="list-group mt-2 position-absolute mt-5"></ul>
 
         </div>
-
       </div>
+
+      <!--Search option ends-->
+
+
+
+      <!--Check in and Check out Option start-->
+
       <div class="form-group me-2 my-2">
         <div class="input-group">
           <span class="input-group-text bg-white ">
@@ -46,6 +56,12 @@
         </div>
 
       </div>
+
+      <!--Check in and Check out Option ends-->
+
+
+      <!--Guest starts-->
+
 
       <div class="form-group me-2 my-2">
         <div class="input-group">
@@ -71,57 +87,70 @@
 
       </div>
 
+      <!--Guest ends-->
+
+
+      <!--Price start-->
       <div class="form-group me-2 my-2">
         <div class="input-group">
-          <input type="text" class="form-control border-end-0" placeholder="Price Range" id="priceInput" autocomplete="off">
+          <input type="text" class="form-control border-end-0" placeholder="Price Range" id="priceInput"
+            autocomplete="off">
           <span class="input-group-text bg-white ">
             <i class="fa-solid fa-angle-down text-info"></i>
           </span>
         </div>
-       <div class="col-10 col-md-12 text-center mx-auto ">
-        <div class="row" id="sliderOpen">
-          <div class="col-md-12">
-            <div class="mt-3">
-              <small class="text-muted">Price Range: <small class="text-warning text-sm"><i
-                    class="fa-solid fa-bangladeshi-taka-sign text-warning"></i>0 - <i
-                    class="fa-solid fa-bangladeshi-taka-sign text-warning"></i>1000+ per night</small></small>
-            </div>
-            <div class="ms-2 me-2" > 
-              <div class="mt-5 mb-4" id="slider">
-
+        <div class="col-10 col-md-12 text-center mx-auto ">
+          <div class="row" id="sliderOpen">
+            <div class="col-md-12">
+              <div class="mt-3">
+                <small class="text-muted">Price Range: <small class="text-warning text-sm"><i
+                      class="fa-solid fa-bangladeshi-taka-sign text-warning"></i>0 - <i
+                      class="fa-solid fa-bangladeshi-taka-sign text-warning"></i>1000+ per night</small></small>
               </div>
+              <div class="ms-2 me-2">
+                <div class="mt-5 mb-4" id="slider">
+
+                </div>
+              </div>
+              <div type="button " class="btn btn-danger" id="sliderApply">Apply</div>
             </div>
-            <div type="button " class="btn btn-danger" id="sliderApply">Apply</div>
           </div>
         </div>
-       </div>
       </div>
 
       <div class="form-group me-2 my-2 text-center">
-        <button class="btn btn-warning"  type="submit" id="searchButton">Search</button>
+        <button class="btn btn-warning" type="submit" id="searchButton">Search</button>
       </div>
+
+      <!--Price ends-->
     </form>
 
 
-    <div id="outputDiv">
+    <div id="outputDiv"></div>
 
-     
-    </div>
+
+
 
   </div>
 
 
 
+  <!---maps start-->
+
+  <div class="showMap text-center mb-5">
+    <button id="showMapBtn" type="button" class="btn btn-info ">Show Map</button>
+  </div>
+
+  <div id="map" class="text-center mx-auto"></div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="script/script.js"></script>
   <script src="script/guest.js"></script>
   <script src="script/slider.js"></script>
-
-  <script>
-    
-  </script>
-
+  <script src="script/leaflet.js"></script>
 </body>
+
 </html>
