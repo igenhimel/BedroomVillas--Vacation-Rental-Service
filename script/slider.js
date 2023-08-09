@@ -44,6 +44,7 @@ function updateValue() {
 sliderApply.addEventListener('click', () => {
 
     updateValue();
+    sliderOpen.className = "d-none";
 })
 
 // Listen for clicks outside the slider to close it
