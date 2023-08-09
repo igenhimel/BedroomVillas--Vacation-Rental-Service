@@ -150,12 +150,23 @@ document.addEventListener('DOMContentLoaded', function () {
             
             // Filter out the coordinates based on the search input
             var filteredCoordinates = coordinatesData.filter(data => data.place === searchInput);
+            var coordinatesArray;
             
             // Extract the coordinated value as an array
-            var coordinatesArray = filteredCoordinates.find(data => data.coordinates);
+
+            if(filteredCoordinates.length>0){
+               coordinatesArray  = filteredCoordinates[0].coordinates;
+            }
+            else{
+                coordinatesArray = [40.2206,-74.7597];
+            }
+
+            
+
+           
 
             // Create the map
-            map = L.map(mapContainer).setView(coordinatesArray.coordinates, 7);
+            map = L.map(mapContainer).setView(coordinatesArray, 7);
 
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
