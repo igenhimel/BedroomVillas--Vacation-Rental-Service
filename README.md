@@ -1,3 +1,8 @@
+# Interactive Property Search Web App - TASK
+
+Welcome to the Interactive Property Search Web App repository! This web application allows users to search for rental properties, apply various filters, and view the results on an interactive map.
+
+
 # Bedroom Villas - Property Location Webpage
 
 Bedroom Villas is a property location webpage designed to showcase various villas and resorts available for rent or sale. It provides a user-friendly interface to browse through different properties and explore the features and amenities they offer. The webpage is responsive and can be accessed from any device, ensuring a seamless user experience.
@@ -24,6 +29,11 @@ Bedroom Villas is a property location webpage designed to showcase various villa
 - HTML5
 - CSS3
 - Bootstrap 5 
+- Font Awesome Icons
+- Pikaday Date Picker
+- noUiSlider
+- Leaflet.js
+- JavaScript
 
 ## Getting Started
 
@@ -40,5 +50,6 @@ Alternatively, you can simply access the live website at (https://igenhimel.gith
 1. Upon opening the webpage, you will see a grid of property tiles showcasing different villas and resorts.
 2. Click on a tile to view more details about a particular property.
 3. Use the search functionality to filter properties based on location, amenities, etc.
+
 
 
