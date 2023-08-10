@@ -24,8 +24,13 @@ Check out the live demo of the web app: [Interactive Property Search Web App](ht
 The web app is built using the following technologies:
 
 - HTML
-- CSS (Bootstrap, Font Awesome, Leaflet, Pikaday, noUiSlider)
+- CSS 
 - JavaScript
+- Bootstrap
+- Font Awesome
+- Leaflet
+- Pikaday
+- noUiSlider
 
 ## Features
 
