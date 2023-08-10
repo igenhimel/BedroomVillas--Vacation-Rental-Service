@@ -1,55 +1,73 @@
 # Interactive Property Search Web App - TASK
 
-Welcome to the Interactive Property Search Web App repository! This web application allows users to search for rental properties, apply various filters, and view the results on an interactive map.
-
-
-# Bedroom Villas - Property Location Webpage
-
-Bedroom Villas is a property location webpage designed to showcase various villas and resorts available for rent or sale. It provides a user-friendly interface to browse through different properties and explore the features and amenities they offer. The webpage is responsive and can be accessed from any device, ensuring a seamless user experience.
-
-![Bedroom_Villas](https://github.com/igenhimel/BedroomVillas-W3project/blob/task1/images/Screenshot%20(1).png)
-
 
 ## Table of Contents
-- [Features](#features)
+
+- [Description](#description)
+- [Live Demo](#live-demo)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
+- [Features](#features)
+- [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Features
+## Description
 
-- User-friendly interface for easy property browsing.
-- Responsive design, suitable for desktops, tablets, and mobile devices.
-- Property tiles showcasing villa/resort images, brief descriptions, and key features.
-- Individual pages with detailed property information.
-- Search functionality to filter properties by location, amenities, etc.
+This repository contains the code for an interactive property search web application. The web app allows users to search for properties based on various criteria such as location, check-in/out dates, number of guests, and price range. It provides a visually appealing user interface with interactive elements to refine property search results.
+
+## Live Demo
+
+Check out the live demo of the web app: [Interactive Property Search Web App](https://classy-meringue-8e3339.netlify.app/)
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- Bootstrap 5 
-- Font Awesome Icons
-- Pikaday Date Picker
-- noUiSlider
-- Leaflet.js
+The web app is built using the following technologies:
+
+- HTML
+- CSS (Bootstrap, Font Awesome, Leaflet, Pikaday, noUiSlider)
 - JavaScript
 
-## Getting Started
+## Features
 
-To get a copy of the project up and running on your local machine, follow these steps:
+- Location-based property search with autocomplete suggestions
+- Check-in and check-out date selection
+- Number of guests selection with a counter
+- Price range selection using a slider
+- Interactive map view of property locations
+- User-friendly and responsive design
 
-1. Clone the repository: `git clone [[https://github.com/igenhimel/BedroomVillas-W3project.git]`]
-2. Navigate to the project directory: `cd bedroom-villas`
-3. Open `index.html` in your web browser.
+## Installation
 
-Alternatively, you can simply access the live website at (https://igenhimel.github.io/BedroomVillas-W3project/)
+To run the web app locally, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/interactive-property-search.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd interactive-property-search
+```
+
+3. Open the `index.html` file in a web browser.
 
 ## Usage
-(https://igenhimel.github.io/BedroomVillas-W3project/)
-1. Upon opening the webpage, you will see a grid of property tiles showcasing different villas and resorts.
-2. Click on a tile to view more details about a particular property.
-3. Use the search functionality to filter properties based on location, amenities, etc.
 
+1. Enter a location in the search input to get autocomplete suggestions.
+2. Select check-in and check-out dates using the date pickers.
+3. Specify the number of guests using the guest input and counter.
+4. Adjust the price range using the slider.
+5. Click the "Search" button to see property search results.
+6. Click the "Show Map" button to view property locations on the map.
 
+## Contributing
 
+Contributions are welcome! If you find any issues or want to enhance the features of the web app, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per the license terms.
