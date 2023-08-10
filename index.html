@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <link rel="stylesheet" href="style.css">
-  <title>JavaSript</title>
+  <title>JavaScript</title>
 </head>
 
 <body>
@@ -117,7 +117,7 @@
 
                 </div>
               </div>
-              <div type="button " class="btn btn-danger" id="sliderApply">Apply</div>
+              <div type="button " class="btn btn-warning" id="sliderApply">Apply</div>
             </div>
           </div>
         </div>
@@ -131,11 +131,17 @@
     </form>
 
 
-    <div id="outputDiv"></div>
+    <div class="card mx-auto" id="searchBox" style="width: 18rem;">
+      <h5 class="card-title text-center py-2 bg-dark text-white">Search Result</h5>
+      <div class="card-body lead" id="outputDiv">
+       
+      </div>
+      
+    </div>
 
 
  <div class="showMap text-center mb-5">
-    <button id="showMapBtn" type="button" class="btn btn-info ">Show Map</button>
+    <button id="showMapBtn" type="button" class="btn btn-dark rounded-pill "><i class="fa-solid fa-map me-2"></i>Show Map</button>
     
   </div>
 </div>
@@ -151,29 +157,20 @@
     <div id="propertyListContainer" class="property-list-container">
    </div>
    
-  
-    
+
 
   </div>
   
 
-
-
-  
-
-
-  <!---maps start-->
-
- 
-
-
   <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="script/script.js"></script>
+  <script src="script/places.js"></script>
+  <script src="script/calendar.js"></script>
   <script src="script/guest.js"></script>
   <script src="script/slider.js"></script>
   <script src="script/leaflet.js"></script>
+  <script src="script/script.js"></script>
 </body>
 
 </html>
