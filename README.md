@@ -29,7 +29,7 @@ Experience the web app live: [Interactive Property Search Web App](https://class
 
 ### Search Options
 
-- **Location Search:** Users can search for rental properties by entering a location, such as a city or region.
+- **Location Search:** Users can initiate a property rental search by entering the first three letters of a desired location, after which the system will provide location suggestions based on cities or regions.
 
 - **Check-in and Check-out Dates:** Users can specify their desired check-in and check-out dates using a date picker.
 
