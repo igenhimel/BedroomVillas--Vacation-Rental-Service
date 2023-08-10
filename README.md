@@ -2,6 +2,9 @@
 
 Bedroom Villas is a property location webpage designed to showcase various villas and resorts available for rent or sale. It provides a user-friendly interface to browse through different properties and explore the features and amenities they offer. The webpage is responsive and can be accessed from any device, ensuring a seamless user experience.
 
+![Bedroom_Villas](https://github.com/igenhimel/BedroomVillas-W3project/blob/task1/images/Screenshot%20(1).png)
+
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
