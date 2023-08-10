@@ -23,7 +23,7 @@ The Interactive Property Search Web App is designed to help users easily find an
 
 ## Live Demo
 
-Experience the web app live: [Interactive Property Search Web App](https://wonderful-caramel-460bf0.netlify.app/)
+Experience the web app live: [Interactive Property Search Web App](https://boisterous-pudding-97d9b2.netlify.app/)
 
 ## Features
 
