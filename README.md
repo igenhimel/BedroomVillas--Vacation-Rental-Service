@@ -44,13 +44,13 @@ To run the web app locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/interactive-property-search.git
+git clone (https://github.com/igenhimel/BedroomVillas-W3project.git)
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd interactive-property-search
+cd BedroomVillas-W3project
 ```
 
 3. Open the `index.html` file in a web browser.
@@ -64,10 +64,3 @@ cd interactive-property-search
 5. Click the "Search" button to see property search results.
 6. Click the "Show Map" button to view property locations on the map.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or want to enhance the features of the web app, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per the license terms.
