@@ -1,9 +1,4 @@
-# Interactive Property Search Web App - TASK
-
-Welcome to the Interactive Property Search Web App repository! This web application allows users to search for rental properties, apply various filters, and view the results on an interactive map.
-
-
-# Bedroom Villas - Property Location Webpage
+# Bedroom Villas - Interactive Property Search Web App - TASK
 
 Bedroom Villas is a property location webpage designed to showcase various villas and resorts available for rent or sale. It provides a user-friendly interface to browse through different properties and explore the features and amenities they offer. The webpage is responsive and can be accessed from any device, ensuring a seamless user experience.
 
