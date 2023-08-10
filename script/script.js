@@ -13,18 +13,18 @@ searchButton.addEventListener('click', () => {
     let priceRange = document.getElementById("priceInput").value;
 
 
-    if (place === '' && checkin === '' && checkout === '' && guest === '' && priceRange === '') {
+    if (place === '' || checkin === '' || checkout === '' || guest === '' || priceRange === '') {
         alert('Please enter values before searching.');
         event.preventDefault();
         return;
     } else {
 
         // Create a string with the values
-        let output = "Search: " + place + "<br>" +
-            "Check In: " + checkin + "<br>" +
-            "Check Out: " + checkout + "<br>" +
-            "Guests: " + guest + "<br>" +
-            "Price Range: " + priceRange + "<br>";
+        let output = "<i class='fa-solid fa-magnifying-glass me-2 text-info'></i> Search: " + place + "<br><hr>" +
+            "<i class='fa-regular fa-calendar me-2 text-info'></i>Check In: " + checkin + "<br><hr>" +
+            "<i class='fa-regular fa-calendar me-2 text-info'></i>Check Out: " + checkout + "<br><hr>" +
+            "<i class='fa-solid fa-users-line me-2 text-info'></i>Guests: " + guest + "<br><hr>" +
+            "<i class='fa-solid fa-sliders me-2 text-info'></i>Price Range: " + priceRange + "<br>";
 
         // Display the values in the output div
         searchBox.classList.add("d-block");
