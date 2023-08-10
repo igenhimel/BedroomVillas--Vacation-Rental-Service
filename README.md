@@ -11,6 +11,7 @@ Welcome to the Interactive Property Search Web App repository! This web applicat
   - [Check-in and Check-out](#check-in-and-check-out)
   - [Guest Count](#guest-count)
   - [Price Range](#price-range)
+  - [Map](#Map)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,7 +19,7 @@ Welcome to the Interactive Property Search Web App repository! This web applicat
 
 ## Introduction
 
-The Interactive Property Search Web App is designed to help users easily find and filter rental properties based on their preferences. It offers a user-friendly interface with multiple search options and provides an interactive map to visualize property locations.
+The Interactive Property Search Web App is designed to help users easily find and filter rental properties based on their preferences. It offers a user-friendly interface with multiple search options and provides an interactive map to visualize property locations based on their desired price range.
 
 ## Live Demo
 
@@ -35,7 +36,7 @@ Experience the web app live: [Interactive Property Search Web App](https://illus
 - **Guest Count Selection:** Users can select the number of guests for the stay, refining the search results accordingly.
 
 - **Price Range:** Users can set a preferred price range for the rental properties using a slider.
-
+  
 ### Check-in and Check-out
 
 Users can set their desired check-in and check-out dates using the date picker. This feature helps users find properties available during their intended stay.
@@ -47,6 +48,10 @@ Users can specify the number of guests for their stay. The guest count can be ad
 ### Price Range
 
 Users can set a price range for the rental properties using a slider. The slider allows users to define a minimum and maximum price per night, helping them narrow down their options.
+
+### Map
+
+Users can visualize property locations based on their desired price range.
 
 ## Technologies Used
 
