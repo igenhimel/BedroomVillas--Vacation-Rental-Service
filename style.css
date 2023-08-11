@@ -91,7 +91,12 @@
 
 #sliderOpen {
   display: none;
+  position: absolute;
+  z-index: 1;
   background-color: rgb(246, 251, 255);
+  width: 30%;
+  top:55px;
+  right: 28px;
 }
 
 .showMap {
@@ -101,17 +106,15 @@
   right: 0;
 }
 
-
-#map {
-  width: 100%;
-  height: 100vh; /* 100% of the viewport height */
+#suggestions {
+  width: 250px;
 }
 
 
 #searchBox{
   display: none;
 }
-=======
+
 .custom-dropdown-menu{
     display:none;
     position: absolute;
@@ -201,6 +204,16 @@
     display: flex;
     align-items: flex-end;
   }
+
+  .counterButton{
+    position: absolute;
+    z-index: 1;
+  }
+  
+  #sliderApply{
+    margin-left: 30px;
+  }
+  
   
  
   @media (max-width: 992px) {
@@ -209,4 +222,49 @@
       background-color: rgb(75, 75, 85); /* Background color for small devices */
       padding: 5px 5px 5px 5px;
     }
+
+    #sliderOpen {
+      top:95px;
+      right: 28px;
+    }
+
+
+  }
+
+  @media (max-width: 767px) {
+ 
+    #sliderOpen {
+      top:238px;
+      right: 240px;
+      width: 40%;
+    }
+  }
+
+
+  @media (max-width: 600px) {
+ 
+    #sliderOpen {
+      top:238px;
+      right: 240px;
+      width: 40%;
+    }
+
+#sliderApply{
+  margin-left: 80px;
+}
+
+  }
+
+  @media (max-width: 550px) {
+ 
+    #sliderOpen {
+      top:238px;
+      right: 76px;
+      width: 60%;
+    }
+
+#sliderApply{
+  margin-left: 80px;
+}
+
   }

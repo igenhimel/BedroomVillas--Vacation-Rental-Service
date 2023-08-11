@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
 
             contentContainer.className = 'd-none';
+            mapContainer.style.setProperty("width","100%");
+            mapContainer.style.setProperty("height","100vh");
 
             if (map !== null) {
 
